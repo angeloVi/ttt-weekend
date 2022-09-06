@@ -70,7 +70,7 @@ init()
     let cellColor
     let cellLetter
     if (cell === 1) {
-      cellColor = 'red'
+      cellColor = 'purple'
       cellLetter = 'X'
     } else if (cell === -1) {
       cellColor = 'yellow'
