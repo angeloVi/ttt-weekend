@@ -70,10 +70,10 @@ init()
     let cellColor
     let cellLetter
     if (cell === 1) {
-      cellColor = 'green'
+      cellColor = 'red'
       cellLetter = 'X'
     } else if (cell === -1) {
-      cellColor = 'purple'
+      cellColor = 'yellow'
       cellLetter = 'O'
     } else if (cell === null) {
       cellColor = 'white'
@@ -175,16 +175,6 @@ squareEls.forEach(square => {
   //     we have a winner! Set the `winner` variable to the board's value at 
   //     the index specified by the first index of that winning combination's 
   //     array by returning that value.
-
-  // if (Math.abs(board[0] + board[1] + board[2]) === 3) return board[0]
-  // if (Math.abs(board[3] + board[4] + board[5]) === 3) return board[3]
-  // if (Math.abs(board[6] + board[7] + board[8]) === 3) return board[6]
-  // if (Math.abs(board[0] + board[3] + board[6]) === 3) return board[0]
-  // if (Math.abs(board[1] + board[4] + board[7]) === 3) return board[1]
-  // if (Math.abs(board[2] + board[5] + board[8]) === 3) return board[2]
-  // if (Math.abs(board[0] + board[4] + board[8]) === 3) return board[0]
-  // if (Math.abs(board[2] + board[4] + board[6]) === 3) return board[2]
-
 
 // 7c) If there is no winner, check to see if there is a tie. Set the  
   //     `winner` variable to `'T'` if there are no more nulls in the board  
